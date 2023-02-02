@@ -1,0 +1,12 @@
+button {
+	height: 40px;
+	padding: 0 24px
+}
+
+button:has(.icon) > * {
+	padding: 0 16px
+}
+
+button.text {
+	padding: 0 18px;
+}
