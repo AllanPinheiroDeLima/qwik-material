@@ -1,0 +1,11 @@
+button.tonal {
+	@apply bg-secondary-container text-on-secondary-container
+}
+
+button.tonal:hover::before {
+	@apply bg-on-secondary-container/[.08]
+}
+
+button.tonal:active::before {
+	@apply bg-on-secondary-container/[.12]
+}

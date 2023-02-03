@@ -1,3 +1,7 @@
 button.text {
-	background: purple;
+	padding: 0 1.75rem;
+}
+
+button.text:has(.icon) {
+	padding-right: 1rem
 }

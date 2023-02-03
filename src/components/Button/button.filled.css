@@ -1,0 +1,11 @@
+button.filled {
+	@apply bg-primary text-on-primary
+}
+
+button.filled:hover::before {
+	@apply bg-on-primary/[.08]
+}
+
+button.filled:active::before {
+	@apply bg-on-primary/[.12]
+}

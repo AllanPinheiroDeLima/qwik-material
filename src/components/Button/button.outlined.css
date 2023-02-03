@@ -1,0 +1,19 @@
+button.outlined {
+	@apply text-primary outline outline-1 outline-outline
+}
+
+button.outlined::before {
+	@apply bg-transparent
+}
+
+button.outlined:hover::before {
+	@apply bg-primary/[.08]
+}
+
+button.outlined:active::before {
+	@apply bg-primary/[.12]
+}
+
+button.outlined:focus {
+	@apply outline-primary
+}

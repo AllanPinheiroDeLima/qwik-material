@@ -1,5 +1,10 @@
 @import "./text.utilities.css";
+@import "./state.layer.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	@apply bg-background
+}

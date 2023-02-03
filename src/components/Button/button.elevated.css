@@ -1,3 +1,11 @@
 button.elevated {
-	background: blue
+	@apply text-primary
+}
+
+button.elevated::before {
+	@apply bg-surface
+}
+
+button.elevated:hover::before {
+	@apply bg-primary/[.08]
 }

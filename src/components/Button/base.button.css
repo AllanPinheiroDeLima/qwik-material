@@ -1,12 +1,29 @@
 button {
-	height: 40px;
-	padding: 0 24px
+	@apply label-large h-10 px-[1.5rem] rounded-[1.25rem] relative overflow-hidden
+	flex gap-[.5rem] items-center justify-center
 }
 
-button:has(.icon) > * {
-	padding: 0 16px
+button .icon {
+	@apply fill-current
 }
 
-button.text {
-	padding: 0 18px;
+button:has(.icon) {
+	@apply pl-[1rem]
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button::before {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+button:disabled {
+	@apply bg-on-surface/[.12] text-on-surface/[.38] !important
 }

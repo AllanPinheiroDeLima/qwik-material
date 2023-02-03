@@ -1,0 +1,19 @@
+@tailwind utilities;
+
+@layer utilities {
+	.hover-opacity {
+		opacity: .08;
+	}
+
+	.focus-opacity {
+		opacity: .12
+	}
+
+	.pressed-opacity {
+		opacity: .12
+	}
+
+	.dragged-opacity {
+		opacity: .16
+	}
+}

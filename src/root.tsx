@@ -25,9 +25,13 @@ export default component$(() => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <div class="display-large">meu item</div>
-        <button onClick$={toggleType}>change button</button>
-        <Button type={buttonStore.type}>My button</Button>
+        <Button type="outlined">
+          <div q:slot="append">
+            do slot
+          </div>
+          asioudasb
+          <div>outradiv</div>
+        </Button>
         <Counter />
       </body>
     </>
