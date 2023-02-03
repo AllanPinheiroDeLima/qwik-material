@@ -3,11 +3,7 @@ button {
 	flex gap-[.5rem] items-center justify-center
 }
 
-button .icon {
-	@apply fill-current
-}
-
-button:has(.icon) {
+button:has(.appended) {
 	@apply pl-[1rem]
 }
 

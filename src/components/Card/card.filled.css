@@ -1,0 +1,3 @@
+div.card.filled {
+	@apply bg-primary/[.05]
+}

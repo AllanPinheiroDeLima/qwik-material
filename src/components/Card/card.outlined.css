@@ -1,0 +1,3 @@
+div.card.outlined {
+	@apply bg-surface outline outline-1 outline-outline shadow-none
+}

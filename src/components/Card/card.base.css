@@ -1,0 +1,7 @@
+div.card {
+	@apply shadow shadow-surface rounded-[.75rem] p-[1rem] m-[1px]
+}
+
+div.card.disabled {
+	@apply opacity-[.38] bg-surface-variant
+}

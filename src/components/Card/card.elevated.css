@@ -1,0 +1,3 @@
+div.card.elevated {
+	@apply bg-primary/[.05]
+}

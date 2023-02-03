@@ -1,0 +1,11 @@
+button.icon-button {
+	@apply w-[40px] rounded-full p-0
+}
+
+button.filled.icon-button {
+	@apply text-on-primary
+}
+
+button.tonal.icon-button {
+ @apply text-on-secondary-container
+}
